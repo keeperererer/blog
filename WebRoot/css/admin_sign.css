@@ -1,0 +1,38 @@
+body{
+	background: url(../images/ad_sign.jpg);
+}
+
+form{
+	margin: 0 auto;
+	text-align: center;
+}
+form table{
+	margin: 20% auto;
+}
+form table tr{
+	display: block;
+	margin-bottom: 5px;
+}
+form table tr th{
+	font-size: 24px;
+	color: #3e652d;
+	padding-left: 140px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+form table td{
+	width: 130px;
+	height:30px;
+	font-size:16px;
+	color:#3e2727;
+
+}
+.button{
+	color: #3e2727;
+}
+#al
+{
+	width:100px;
+	height:40px;
+	background:pink;
+}

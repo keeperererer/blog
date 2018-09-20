@@ -1,0 +1,38 @@
+body
+{
+  background: url("../images/admin_bg.jpg");
+}
+ul
+{
+  float:left;
+}
+ul li
+{
+list-style:none;
+padding-left:10px;
+}
+h2
+{
+  text-align:center;
+}
+  a
+  {
+    display:block;
+    width:120px;
+    line-height: 40px;
+    padding-left:40px;
+    text-decoration: none;
+    color: #675454;
+  }
+  a:hover
+  {
+    background:#f7f79f;
+  }
+ 
+  iframe
+  {
+   width:1000px;
+   height: 500px;
+   margin-top:20px;
+   margin-left:20px;
+  }

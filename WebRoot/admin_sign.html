@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>管理员登录</title>
+  <link rel="stylesheet" href="css/admin_sign.css"> 
+</head>
+<body>
+  <div id="sign">
+    <form id="dl" onsubmit="return check();">
+      <table>
+        <tr>
+                <th colspan="2">管理员登录</th>
+        </tr>
+        <tr>
+          <td>用户名</td>
+          <td><input type="text" name="admin" ></td>
+        </tr>
+        <tr>
+          <td>密码</td>
+          <td><input type="password" name="pwd" ></td>
+        </tr>
+        <tr>
+         <td></td>
+         <td>
+                <input type="submit" value="登录" class="button_btn" style="width:60px;">
+                <input type="reset" value="重置" class="button" style="width:60px;">
+         </td>
+         </tr>
+      </table>
+    </form>
+  </div>
+   <script type="text/javascript">
+   function check()
+   {
+    var name = document.getElementById('dl');
+    if(name.admin.value=='admin'&& name.pwd.value=='123456')
+    {
+    window.open( "admin.jsp");
+    }
+   }
+</script>
+</body>
+</html>
